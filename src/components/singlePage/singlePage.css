@@ -1,0 +1,53 @@
+.single-page {
+    background-color: rgb(241, 241, 241);
+    min-height: 160px;
+}
+
+.single-page-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.single-page-text h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: rgb(77, 77, 255);
+    font-weight: 800 !important;
+}
+
+.single-page-text1 h1 {
+    color: rgb(130, 130, 247);
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.single-page-text1 {
+    flex-direction: column;
+}
+
+.single-page-text1 h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(108, 108, 253);
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem;
+
+}
+
+.single-h {
+    font-size: 17px;
+    color: rgb(54, 54, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.single-hr {
+    height: 5px !important;
+}
